@@ -1,0 +1,38 @@
+{
+    "tiny": {
+        "architecture": "lstm",
+        "vocab_size": 27224,
+        "context_length": 256,
+        "hidden_size": 64,
+        "n_layers": 1,
+        "dropout": 0.1,
+        "parameters": 3545176
+    },
+    "small": {
+        "architecture": "lstm",
+        "vocab_size": 27224,
+        "context_length": 256,
+        "hidden_size": 128,
+        "n_layers": 2,
+        "dropout": 0.1,
+        "parameters": 7260760
+    },
+    "medium": {
+        "architecture": "lstm",
+        "vocab_size": 27224,
+        "context_length": 256,
+        "hidden_size": 320,
+        "n_layers": 3,
+        "dropout": 0.1,
+        "parameters": 19915864
+    },
+    "large": {
+        "architecture": "lstm",
+        "vocab_size": 27224,
+        "context_length": 256,
+        "hidden_size": 680,
+        "n_layers": 4,
+        "dropout": 0.1,
+        "parameters": 51870424
+    }
+}
