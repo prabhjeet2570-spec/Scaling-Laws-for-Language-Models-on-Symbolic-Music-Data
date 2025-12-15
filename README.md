@@ -1,3 +1,5 @@
+## Disclaimer: I made use of AI tools during the execution of this project and used Grammarly for improving the writing quality of the project report.
+
 # Scaling Laws for Music Language Models
 
 A comprehensive study investigating whether neural scaling laws, originally discovered for text language models, apply to music modeling. This project trains decoder-only transformers and LSTMs of varying sizes on ABC notation and analyzes how validation loss scales with model size.
@@ -42,29 +44,32 @@ We investigate this by:
 ## Project Structure
 ```
 ├── notebooks/
-│   ├── Part_1.ipynb          # Data collection and preprocessing
-│   ├── Part_2.ipynb          # Transformer scaling study
-│   ├── Part_3.ipynb          # LSTM scaling study and comparison
-│   └── Part_4.ipynb          # Best model training and generation
+│   ├── Part_1.ipynb              # Data collection and preprocessing
+│   ├── Part_2.ipynb              # Transformer scaling study
+│   ├── Part_3.ipynb              # LSTM scaling study and comparison
+│   └── Part_4.ipynb              # Best model training and generation
+├── configs/
+│   ├── transformer_configs.json  # Transformer model configurations
+│   ├── lstm_configs.json         # LSTM model configurations
 ├── data/
-│   ├── tokenizer.json        # Token to index mapping
-│   ├── statistics.json       # Dataset statistics
+│   ├── tokenizer.json            # Token to index mapping
+│   └── statistics.json           # Dataset statistics
 ├── results/
-│   ├── results_tiny.json     # Tiny transformer results
-│   ├── results_small.json    # Small transformer results
-│   ├── results_medium.json   # Medium transformer results
-│   ├── results_large.json    # Large transformer results
-│   ├── results_xl.json       # XL transformer results
-│   ├── lstm_results_*.json   # LSTM results
-│   ├── best_model_results.json  # Generation results
-│   ├── scaling_plot.png      # Transformer scaling plot
-│   ├── lstm_scaling_plot.png # LSTM scaling plot
+│   ├── results_tiny.json         # Tiny transformer results
+│   ├── results_small.json        # Small transformer results
+│   ├── results_medium.json       # Medium transformer results
+│   ├── results_large.json        # Large transformer results
+│   ├── results_xl.json           # XL transformer results
+│   ├── lstm_results_.json       # LSTM results
+│   ├── best_model_results.json   # Generation results
+│   ├── scaling_plot.png          # Transformer scaling plot
+│   ├── lstm_scaling_plot.png     # LSTM scaling plot
 │   ├── comparison_scaling_plot.png  # Combined comparison
-│   ├── training_curves.png   # Transformer training curves
-│   ├── lstm_training_curves.png     # LSTM training curves
-│   └── sample_*.abc / *.mid  # Generated samples
+│   ├── training_curves.png       # Transformer training curves
+│   ├── lstm_training_curves.png  # LSTM training curves
+│   └── sample_.abc / *.mid      # Generated samples
 ├── report/
-│   └── project_report.pdf            # Final project report
+│   └── project_report.pdf        # Final project report
 └── README.md
 ```
 
