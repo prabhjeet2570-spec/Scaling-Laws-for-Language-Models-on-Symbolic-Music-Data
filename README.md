@@ -232,9 +232,3 @@ dddd^fdfe|z8|d3^F^cdf|d3A^dAd|^cAdADDB|
 - **Scaling Laws Reference**: Kaplan et al. "Scaling Laws for Neural Language Models" - [https://arxiv.org/pdf/2001.08361](https://arxiv.org/pdf/2001.08361)
 
 I would like to thank **Professor Pavel Izmailov** for teaching the course and guiding this project. I learned a lot from working on this project.
-
----
-
-<p align="center">
-  <i>Music is what feelings sound like.</i>
-</p>
