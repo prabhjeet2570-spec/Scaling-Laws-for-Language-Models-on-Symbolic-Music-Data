@@ -164,7 +164,7 @@ This project was developed entirely in **Google Colab** because:
 
 1. **GPU Access**: My laptop is a Mac, so no NVIDIA GPUs available for training.
 
-2. **Cost**: Other cloud GPU options were expensive. I purchased Google Colab Pro twice for a total of about $22, which provided sufficient A100 GPU access to complete all experiments for this project.
+2. **Cost**: Other cloud GPU options were expensive. I purchased Google Colab Pro twice for a total of about $22, which provided sufficient A100 GPU access to complete this project
 
 ### Running the Notebooks
 
@@ -229,9 +229,7 @@ dddd^fdfe|z8|d3^F^cdf|d3A^dAd|^cAdADDB|
 
 - **Dataset**: [Lakh MIDI Dataset](https://colinraffel.com/projects/lmd/)
 - **Kaggle Hosted Dataset**: https://www.kaggle.com/datasets/imsparsh/lakh-midi-clean
-- **ABC Tools**: `midi2abc` from abcmidi package
 - **Scaling Laws Reference**: Kaplan et al. "Scaling Laws for Neural Language Models" - [https://arxiv.org/pdf/2001.08361](https://arxiv.org/pdf/2001.08361)
-- **Compute**: Google Colab
 
 I would like to thank **Professor Pavel Izmailov** for teaching the course and guiding this project. I learned a lot from working on this project.
 
