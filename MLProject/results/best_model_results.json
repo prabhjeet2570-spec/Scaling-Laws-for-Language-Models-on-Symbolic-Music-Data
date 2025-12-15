@@ -1,0 +1,49 @@
+{
+  "model_params": 156788736,
+  "total_tokens_trained": 200000000,
+  "final_train_loss": 0.3733,
+  "final_val_loss": 0.348,
+  "test_loss": 0.3495,
+  "perplexity": 1.42,
+  "num_samples": 30,
+  "valid_abc_count": 19,
+  "valid_abc_percent": 63.333333333333336,
+  "midi_success_count": 17,
+  "midi_success_percent": 89.47368421052632,
+  "unconditional_samples1": [
+    "X:1\nM:2/2\nL:1/8\nK:C\nz6|z6|A,,,6|G,,,2-G,,,/2z/2G,,,3-G,,,/2z/2|A,,,/2z/2A,,,4-A,,,|D,,,3zD,,,3/2z/2|E,,,4-E,,,F,,,|G,,,3zG,,,3-|[A,,,-G,,,]2A,,,3/2G,,,2-G,,,/2z/2A,,,|E,,,6-|E,,,6-|E,,,6-|E,,,4-E,,,z|z3/2E,-[A,-E,]2A,3/2B,z|z6|z2z/2G,,2z/2D,>D,|M:4/4|D,/2-[D-D,-]2[D-A,-D,-]6[DA,D,]2|E,8|D,8-|D,4-D,z|E,,,6|D,,,6|^G,,,6|A,,,6|B,,,6|E,,,6|A,,,6|G,,,6|B,,,6|E,,,6|A,,,6|",
+    "E,,-][E,,-E,,][E,,-B,,,]E,,-[E,,-D,,]E,,-|[E,,-B,,,]E,,-[E,,-E,,][E,,-B,,,]E,,-[E,,-D,,]E,,-|[E,,-B,,,]E,,-[E,,-E,,][E,,-B,,,]E,,-[E,,-D,,]E,,-|[E,,-B,,,]E,,-[E,,-E,,][E,,-B,,,]E,,-[E,,-D,,]E,,-|[E,,-B,,,]E,,-[E,,-E,,][E,,-B,,,]E,,-[E,,-D,,]E,,-|",
+    "]2A/2|[^cAE]2[cAE][cAE]2[cAE][cAE]2[cAE][cAE]2[cAE][cAF]2[cAF]2|[BGD][BGD]2[BGD][BGD]2[BGD][BGD]2[BG][BGD]2[BGD][BGD]2[BGD]2|",
+    "z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|",
+    "X:1\nM:4/4\nL:1/8=FFF-[FE]2F-[FE]2F-[FE]2F-[FE]2F-[FE]2F-[FE]2F/2-[FE]2F-[FE]2F-[FE]2F-[FE]|",
+    "|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|z-428|",
+    "496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|z-496|",
+    "D,-[A,D,]D/2D/2A,|E,/2G,/2G,/2B,/2D2zD2|z2D,2E,3-E,/2D/2-|[DD,]A,/2A,/2D/2D/2A,-[A,E,]2G,/2G,2-[G,E,]2A,/2|z2D,/2F,<A,D<D,F,/2A,/2|z2E,/2G,<B,C<C,E,<A,E,/2|F,>B,,D,<F,D,/2F,2A,/2G,-[G-G,]2|[GC,]2z2(3CC^D,(3F,A,CF,/2|(3E,G,G,(3G,B,G,,(3^F,,D,F,(3A,B,G,|A,,2^C,E,/2E,/2(3A,,B,,C,(3D,F,E,|",
+    "z4z|z2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2|[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2|[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2[GG,]2z/2|",
+    "A-F-C-A,-]3[A-FCA,-]2[AA,]2|[F^D^A,]4[^G-DC-G,-G,]3[GCG,]2z/2|[G^DCG,]3[GDCG,]zG,2-[D-G,]2D/2|F-[FD-]2D/2-[F-D]2F/2-[FD-]2D/2-[GD-]3/2D3/2F|[FD^A,]2z/2A,/2z/2F,[C=A,]2z/2C/2z/2FCz|"
+  ],
+  "unconditional_samples2": [
+    "X:1\nM:4/4\nL:1/8\nK:A\n[G,-E,G,,-]2[G,G,,]2z/2[G,-E,G,,-]3/2[G,G,,]2[G,E,G,,]2z2z/2|[F,-C,F,,-]2[F,F,,]2z/2[F,-C,F,,-]3/2[F,F,,]2[F,C,F,,][F,C,F,,]z2|[G,-E,G,,-]2[G,G,,]2z/2[G,-E,G,,-]3/2[G,G,,]2[G,E,G,,]2z2z/2|[G,-C,G,,-]2[G,G,,]2z/2[G,-C,G,,-]3/2[G,G,,]2[G,E,G,,]2z2z/2|",
+    "X:1\nM:4/4\nL:1/8\nK:A\nz8|z8|z8|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|z3z/2z/2z4|",
+    "X:1\nM:4/4\nL:1/8\nK:C\nz8|z8|z8|z8|z6B,2|(3B,2B,2B,2(3D,,2D,,2D,,2|(3D,,2D,,2D,,2(3A,,,2A,,,2A,,,2|E,,3/2z/2(3E,,2E,,2B,,,2B,,,z|D,,z6z|(3D,,2D,,2D,,2A,,2A,,2|E,,z/2(3E,,2E,,2B,,,2B,,,z|D,,3/2z/2(3D,,2A,,2D,2A,,2|E,,3/2z/2(3E,,2E,,2B,,,2B,,,z|E,,3/2z/2(3E,,2E,,2B,,,2B,,,z|D,,3/2z/2(3D,,2A,,2D,2A,,/2z3/2|D,,3/2z/2(3D,,2A,,2D,2A,,/2z3/2|E,,2B,,/2E,/2zE,B,,3/2B,,/2z2|(3B,,2B,2E,,2(3E,,2B,,,2B,,,2|D,,z6z|(3D,,2D,,2D,,2A,,A,,zA,,/2A,,/2|",
+    "X:1\nM:4/4\nL:1/8\nK:G\nz8|z8|z/2[G-E-B,-]6[G-E-B,-]3/2|[G-E-B,-]6[G-E-B,][G-E-]2|[G-E-G,-]4[G-E-B,-G,]3[G-E-B,]2|[G-E-B,-]4[G-E-B,]2[G-E-]2[G-E-A,-]3|[G-E-A,-]4[G-E-A,][G-E][G-G,-]3|",
+    "X:1\nM:4/4\nL:1/8\nK:D\nz8|z8|z8|z8|[D,D,,]6z2|[C,C,,]2[C,C,,]2[D,D,,]2[E,E,,]2[G,B,,]2|[A,A,,]6z2|[D,-D,,-]6[D,D,,]3/2z/2|[A,A,,]6[G,G,,]2|[F,F,,]6z2|[D,D,,]6A,,2|[C,C,,]2[C,C,,]2[D,D,,]2[E,E,,]2z6|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|[DA,D,]8|[A,D,A,,]6z[G,-G,,-]|",
+    "X:1\nM:4/4\nL:1/8\nK:A\n[G-G,-G,,-][G-B,G,G,,-][G-D-G,,-][GDG,-G,,-]2[G,-G,,-]2[F-G,-G,,-][F-B,G,-G,,-][F-D-G,-G,,-]|[F-D-G,-G,,]2[F-D-G,]2[F-DB,,-][FG,B,,-]2B,,/2-[D-B,,-][DF,-B,,-][F,-B,,-][B,-F,-B,,-]|",
+    "X:1\nM:4/4\nL:1/8\nK:A\nz8|z8|z8|z8|z8|=C8-|=E6-EF/2E/2|C8-|C4-CB,/2C/2BA|B4C/2D/2E/2F/2G4F|A4-AG/2F/2EF|E4DCF6-FGA|G4-GF/2E/2DCFB,-|B,D6F,G,A,-G,A,G,F,D,B,,-|B,,4C,D,E,F,2G,A,-|A,3B,CB,CFDB,G,,-|",
+    "X:1\nM:4/4\nL:1/8\nK:D\nz8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D/2z/2=D/2z/2D/2z/2D/2z/2D|z8|z3^D3C/2z/2^C/2z/2|",
+    "X:1\nM:4/4\nL:1/8\nK:E\nz8|G,,8-|G,,4-G,,-[D,G,,-]2[B,G,,-]2G,,/2-[D,G,,]2|E,G,6(3C,D,E,|C,4-C,3/2C,/2A,,G,,|E,,4-E,,E,2E,,-|[E,,D,,-]2D,,4-D,,3/2D,2|E,/2=B,,/2A,,/2z6z/2|z8|z8|z8|z8|z8|[d=BG]3[BGD]2z/2[dBG]3/2z/2[dBG]3/2z/2|[=BA]3/2z/2[BA]3/2z/2[=BA]3/2z/2[dB]3/2z/2|",
+    "X:1\nM:4/4\nL:1/8\nK:C\nz8|z8|z2[E-E,-]4[E-E,]3/2E/2|[G-G,-]4[GE-G,]3/2E/2[G-G,-]2|[G-E-G,-]8|[GE-G,-]2[EG,]2z4z3/2|z8|[A-D-=F,-]4[ADF,]3/2z/2[ADF,]3/2z/2|[A-D-F,-]4[A-DF,-]3/2[AF,]2[dD]3/2z/2|D,3/2z/2D,3/2z/2D,3/2z/2C,3/2z/2|D,2-[A,-D,]2A,z/2D,3/2z/2D,3/2z/2|"
+  ],
+  "conditional_samples": [
+    "X:1\nM:4/4\nL:1/8\nK:C\nCDEFGAcB,|^A,B,DGGDCA,|CDEFGAcB,|C3/2z2z/2EFzG-|GF/2z/2F/2F/2AGCzD|EFEDzEFz|(3cccccccc|GG3/2z/2GGA/2z/2A/2z/2A/2A/2|c/2z/2c/2z/2cc/2z/2edc/2z/2^d/2c/2|G/2-[GE-]2E3/2zE/2E/2EE^D|C^A,3/2z/2G,/2G,/2G,F,E,/2F,/2G,/2A,/2|CCCC/2z/2C/2C/2CCz|E/2E/2E/2z/2C/2DCC3/2z3/2|",
+    "X:1\nM:4/4\nL:1/8\nK:G\nGABcdzB,E|FGFABz3|G/2F/2GA/2B/2GcdcB|GABcdzB,G|FGABcdzB,/2z/2|GABcdzB,E|FGFABzA,G|FGFABz3|G/2F/2GABcdzB,|GABcdzB,E|FGFABzA,G|FGFABzG,A|GABcdzB,E|FGFABzG,A|GABcdzB,E|FGFABzF,A|GABcdzB,E|",
+    "X:1\nM:3/4\nL:1/8\nK:D\nDEFEF2FF-|FGFEGGAA-|AGc_A2z2|EFGFG2FF-|FE2FEFFG-|G_GFEEz2E|GAAAA2GG|GAGAA2GG|GFGFE2G_A-|_A2GGGFFG-|G_GFEDEEE|_GAA2AGGG|GF2GGGAA|AGAGGGFG-|G_G2F2G3|z8|z8|z8|M:5/4GA|GFGFE2GG-|G_A=AGAG2A|",
+    "X:1\nM:4/4\nL:1/8\nK:A\nABce4-e3/2z/2|ABce3-e/2z3/2|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|zABce4-e/2z/2|ABc<e2z12|z12|z12|z12|z12|z12|z12|z3[AF]2[GE][^G-D-]2|[^GD]3/2z/2[FD][=G-D-]4[G-D-]2|[GD][GB,][GB,][A-C-]6[AC]|z8z2|",
+    "X:1\nM:6/8\nL:1/8\nK:E\nEFGcBGA|=E8-|E/2z6z3/2|ABcedcdA|B8-|B/2z6z3/2|abc'd'c'd'c'b2|afe4-ec2|dcdbad'2z|abc'd'c'bac'|d'8-|d'2z2b2=g2|f8-|f4=E,,2c'2|=f6b2|a6e2|_e3e2a2|=gfefe2zB|c'8-|[c'-c]2c'6-c'3/2|d'8-|d'6a2|=abc'd'c'b2b|[c'c]6z2|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|",
+    "X:1\nM:4/4\nL:1/8\nK:F\nFGABcd/2A/2Gc|[a_g]f_dfgfdf|[bg]abagfefdefgf|G2_GBec'geg^g2|a2g_gfde/2d/2B2z4|z4G2e2|a2g3/2f/2e/2d/2c2zcB|cBGcABGED|C3B2c2dc|ddedcBcdB|c2BGcAGEB|ccBGBcAGF|A3Bcde2BcF,|]3/2z/2B3/2_B/2c3Bc2|F3|A2B6|z4G2d2|",
+    "X:1\nM:2/4\nL:1/8\nK:C\nG,CEGGec^A,G,|CA,EGGacG,-|G,cGCA,CEG|cAEAc'ecG,|CA,EGcece|dF,,A,DFAdA,,|^DF^AdFaeD,-|[^DD,]F^AdFaeF|G,CEGGecG,|C,=CEGGecG,|C,=CEGGecG,|C,CEGGecG,|D,A,DFAdA,|D,A,DFAdfa|^A,,A,F=AAdfa|^A,,A,F=AAdfa|",
+    "X:1\nM:4/4\nL:1/8\nK:D\nA,DFAz/2c2z/2c|z8|z8|z8|z8|A,DFA2cdf|A3/2z/2CDFGA2|FDDd2Acf|AFc2d4-|d2AFGFD2|G,CDA2ccf|AFD2G,2CD-|D2GDGDGD|GDGDA,G,F,G,|E,4z2A,D|FAcdAFG2|AcfA2F4-|F2FFAc2f|g2AG2^Adf|d4z2^A/2A/2A|c4z2^A/2A/2A|f2dczd/2d/2dd/2d/2|c2c^Ac=A/2c/2Ac|",
+    "X:1\nM:3/4\nL:1/8\nK:G\nDGBdBG^c|GBdBGB^c|G^cgcGc^f|dAd^gdG^c|GBd4z|D3^F^cdf|d2edd^c|z8|d6-d/2z3/2|^CDADADB|^cAdADDB|^cA-[e-A]2e/2Bz^dGB|[d^F-]3[^c-F]c2-c/2z3/2|E^FAFAFB|^c8|z3ABD2z|dddd^fdfe|z8|d3^F^cdf|d3A^dAd|^cAdADDB|",
+    "X:1\nM:6/8\nL:1/8\nK:A\nEAcec'ec'e|bafg'e'c'B|egabc'dF|Dfebeab|f2abc'dE|DfE,d'fed|B,edB,e'AF|Cec]eaecA|Eeabc'dD|[GC]8|[EB,]8|[FB,]3[FB,][AE]2z2z/2|[FA,]8|[GB,]8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|z8|[ECA,]8|"
+  ]
+}
