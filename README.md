@@ -68,7 +68,7 @@ We investigate this by:
 └── README.md
 ```
 
-The data and results directories in the repository contain all the plots and JSON files generated during the project. These directories do not include the original dataset files or the trained machine learning model files. Those files were stored in Google Drive during development because of their very large size, which makes them impractical to upload to GitHub.
+The data and results directories in the repository contain all the plots and JSON files generated during the project. These directories do not include the original dataset files or the trained machine learning model files. Those files were stored in Google Drive during development and because of their very large size, it was not feasible to upload them to GitHub.
 
 To reproduce the full project pipeline, you only need the file lmd-dataset.zip placed inside the MLProject/data/ directory in your Google Drive. This file can be downloaded from the following Kaggle link:
 https://www.kaggle.com/datasets/imsparsh/lakh-midi-clean
@@ -164,7 +164,7 @@ This project was developed entirely in **Google Colab** because:
 
 1. **GPU Access**: My laptop is a Mac, so no NVIDIA GPUs available for training.
 
-2. **Cost**: Other cloud GPU options (AWS, GCP, Lambda Labs) were expensive. I purchased Google Colab Pro twice for a total of about $22, which provided sufficient A100 GPU access to complete all experiments for this project.
+2. **Cost**: Other cloud GPU options were expensive. I purchased Google Colab Pro twice for a total of about $22, which provided sufficient A100 GPU access to complete all experiments for this project.
 
 ### Running the Notebooks
 
