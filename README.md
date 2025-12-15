@@ -176,7 +176,7 @@ To reproduce the results:
 ```
 
 2. **Upload the MIDI dataset:**
-   - Place `lmd-dataset.zip` in the `data/` folder
+   - Place `lmd-dataset.zip` in the `data/` folder. Again, this file can be downloaded from the following Kaggle link: https://www.kaggle.com/datasets/imsparsh/lakh-midi-clean
 
 3. **Open notebooks in Colab:**
    - Upload notebooks to Colab or open directly from Drive
