@@ -9,9 +9,9 @@ A comprehensive study investigating whether neural scaling laws, originally disc
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
+- [Setup and Reproduction](#setup-and-reproduction)
 - [Model Architectures](#model-architectures)
 - [Results](#results)
-- [Setup and Reproduction](#setup-and-reproduction)
 - [Generated Samples](#generated-samples)
 - [Acknowledgments](#acknowledgments)
 
@@ -96,6 +96,51 @@ However, I was unable to download the dataset directly from the original source,
 | Test  | 2,633     | 11,808,149 |
 | **Total** | **263,229** | **1,191,609,738** |
 
+## Setup and Reproduction
+
+### Why Google Colab?
+
+This project was developed entirely in **Google Colab** because:
+
+1. **GPU Access**: My laptop is a Mac, so no NVIDIA GPUs available for training.
+
+2. **Cost**: Other cloud GPU options were expensive. I purchased Google Colab Pro twice for a total of about $22, which provided sufficient A100 GPU access to complete this project
+
+### Running the Notebooks
+
+To reproduce the results:
+
+1. **Create folder in Google Drive:**
+```
+   /content/drive/MyDrive/MLProject/data/
+```
+
+2. **Upload the MIDI dataset:**
+   - Place `lmd-dataset.zip` in the `data/` folder. Again, this file can be downloaded from the following Kaggle link: https://www.kaggle.com/datasets/imsparsh/lakh-midi-clean
+
+3. **Open notebooks in Colab:**
+   - Upload notebooks to Colab or open directly from Drive
+   - Enable GPU runtime: `Runtime > Change runtime type > A100 GPU`
+
+4. **Run in order, cell by cell:**
+```
+   Part_1.ipynb → Part_2.ipynb → Part_3.ipynb → Part_4.ipynb
+```
+
+Part 1 will extract the MIDI files, convert them to ABC notation, tokenize, and create train/val/test splits. Parts 2-4 will use the processed data.
+
+### Requirements
+
+All dependencies are installed within the notebooks. Main libraries:
+- PyTorch
+- NumPy
+- midi2abc
+- music21 (for MIDI conversion)
+- matplotlib
+- scipy
+
+---
+
 ## Model Architectures
 
 ### Transformer Models
@@ -154,51 +199,6 @@ All models trained on **100M tokens** with identical hyperparameters:
 | Parameters | 156.8M |
 | Test Loss | 0.3495 |
 | Test Perplexity | 1.42 |
----
-
-## Setup and Reproduction
-
-### Why Google Colab?
-
-This project was developed entirely in **Google Colab** because:
-
-1. **GPU Access**: My laptop is a Mac, so no NVIDIA GPUs available for training.
-
-2. **Cost**: Other cloud GPU options were expensive. I purchased Google Colab Pro twice for a total of about $22, which provided sufficient A100 GPU access to complete this project
-
-### Running the Notebooks
-
-To reproduce the results:
-
-1. **Create folder in Google Drive:**
-```
-   /content/drive/MyDrive/MLProject/data/
-```
-
-2. **Upload the MIDI dataset:**
-   - Place `lmd-dataset.zip` in the `data/` folder. Again, this file can be downloaded from the following Kaggle link: https://www.kaggle.com/datasets/imsparsh/lakh-midi-clean
-
-3. **Open notebooks in Colab:**
-   - Upload notebooks to Colab or open directly from Drive
-   - Enable GPU runtime: `Runtime > Change runtime type > A100 GPU`
-
-4. **Run in order, cell by cell:**
-```
-   Part_1.ipynb → Part_2.ipynb → Part_3.ipynb → Part_4.ipynb
-```
-
-Part 1 will extract the MIDI files, convert them to ABC notation, tokenize, and create train/val/test splits. Parts 2-4 will use the processed data.
-
-### Requirements
-
-All dependencies are installed within the notebooks. Main libraries:
-- PyTorch
-- NumPy
-- midi2abc
-- music21 (for MIDI conversion)
-- matplotlib
-- scipy
-
 ---
 
 ## Generated Samples
