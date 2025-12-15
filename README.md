@@ -64,7 +64,7 @@ We investigate this by:
 │   ├── lstm_training_curves.png     # LSTM training curves
 │   └── sample_*.abc / *.mid  # Generated samples
 ├── report/
-│   └── report.pdf            # Final project report
+│   └── project_report.pdf            # Final project report
 └── README.md
 ```
 
